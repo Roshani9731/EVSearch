@@ -7,7 +7,7 @@ const Signup = () => {
   return (
     <div className="h-[500px] flex justify-between items-center gap-10 ">
       <div className="flex justify-center items-center flex-col gap-7">
-        <h1 className=" font-semibold text-3xl w-60">
+        <h1 className="font-semibold text-3xl w-60">
           Lorem ipsum dolor sit amet, consectetur adipiscing
         </h1>
 
