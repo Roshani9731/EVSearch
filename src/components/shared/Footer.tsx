@@ -7,9 +7,9 @@ import LinkedIn from "@/assets/ic_linkedin.svg";
 import Instagram from "@/assets/ic_instagram.svg";
 const Footer = () => {
   return (
-    <div className="flex m-14 justify-between">
+    <div className="flex justify-between gap-4">
       <div className="flex flex-col gap-5">
-        <h1 className=" font-bold text-[20px] ">
+        <h1 className=" font-medium  text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing
         </h1>
         <Image src={Scooter} alt="scooter" />

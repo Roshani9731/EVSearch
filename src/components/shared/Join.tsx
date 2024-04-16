@@ -5,8 +5,8 @@ import Setting from "@/assets/setting.svg";
 
 const Join = () => {
   return (
-    <div className="h-[500px] bg-[url('/bjjoin.svg')] flex ">
-      <div className="w-[10%] flex flex-col gap-5 justify-center items-center">
+    <div className="h-[500px] bg-[url('/bgjoin.svg')] flex">
+      <div className="flex flex-col gap-5 justify-center items-center">
         <Button variant="outline" className="border rounded-full w-14">
           <Image src={Setting} alt="set" width={20} height={20} />
         </Button>

@@ -1,4 +1,5 @@
 import Navbar from "@/components/shared/Navbar";
+import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
@@ -21,6 +22,7 @@ const state = [
   "Bihar",
   "West Bengal",
 ];
+const station = 25;
 const city = ["Surat", "Mumbai", "Bangalore", "Chennai", "Kochi", "Panaji"];
 const LocationStation = () => {
   return (
@@ -53,8 +55,29 @@ const LocationStation = () => {
             </SelectContent>
           </Select>
         </div>
+        <div className="m-4 p-4">
+          <h4 className=" font-bold">{station} Results Found</h4>
+        </div>
         <div>
-          <h4>25 Results Found</h4>
+          {Array(25)
+            .fill(0)
+            .map((_, i) => (
+              <div className="flex border rounded p-5 m-5 justify-between items-center">
+                <div>
+                  <h2 className=" font-bold">
+                    Loremi psum Electric Vehicle Charging Station
+                  </h2>
+                  <p>
+                    Opp Virwani Ind Est Jay Bharat Indl Est 2nd Flr, 44,
+                    Goregaon (east), Surat - 123456
+                  </p>
+                  <h1>4 Points</h1>
+                </div>
+                <div>
+                  <Button>₹ 15-20 / slot</Button>
+                </div>
+              </div>
+            ))}
         </div>
       </div>
     </div>

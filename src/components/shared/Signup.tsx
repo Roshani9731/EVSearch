@@ -5,10 +5,11 @@ import Sign from "@/assets/sign.svg";
 
 const Signup = () => {
   return (
-    <div className="flex justify-between items-center gap-5 ">
-      <div className="flex justify-between items-center flex-col gap-7">
-        <h1 className="text-3xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing
+    <div className="flex justify-between items-center gap-5">
+      <div className="flex flex-col gap-4">
+        <h1 className="text-3xl font-medium">
+          Lorem ipsum dolor sit amet,
+          <br /> consectetur adipiscing
         </h1>
 
         <div className="flex gap-4 ">
